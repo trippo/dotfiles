@@ -17,6 +17,7 @@ alias pf="phpunit --filter "
 alias d="php artisan dusk"
 alias sshconfig="vi ~/.ssh/config"
 alias copykey='command cat ~/.ssh/id_rsa.public | pbcopy'
+alias sail='bash vendor/bin/sail'
 
 # JavaScript
 alias jest="./node_modules/.bin/jest"
@@ -72,3 +73,7 @@ alias npmspatie="npm config set registry https://npm.spatie.be"
 
 # Restart touch bar
 alias touchbar="killall ControlStrip"
+
+# Work alias
+alias shop="ssh tecnobitshop -t 'cd /var/www/tecnobit.shop; bash'"
+alias c="ssh corsi -t 'cd /var/www/html/; bash'"
