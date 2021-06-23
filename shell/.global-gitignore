@@ -12,6 +12,7 @@ Thumbs.db
 
 # PhpStorm
 .idea
+.php-cs-fixer.cache
 
 # vs code
 .vscode
