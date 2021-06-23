@@ -52,6 +52,7 @@ prompt_end() {
     echo -n "%{%k%}"
   fi
   echo -n "%{%f%}"
+  echo -n "\n 🤌🏻 "
   CURRENT_BG=''
 }
 
