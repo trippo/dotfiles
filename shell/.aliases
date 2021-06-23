@@ -16,7 +16,7 @@ alias p="phpunit"
 alias pf="phpunit --filter "
 alias d="php artisan dusk"
 alias sshconfig="vi ~/.ssh/config"
-alias copykey='command cat ~/.ssh/id_rsa.public | pbcopy'
+alias copykey='command cat ~/.ssh/id_rsa.pub | pbcopy'
 alias sail='bash vendor/bin/sail'
 
 # JavaScript
